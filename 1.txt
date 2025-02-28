@@ -1,8 +1,8 @@
 conda create --name sign python=3.7.1
 conda activate sign
-cd D:\Indian-Sign-Language-Recognition #path of file
+cd D:\Sign-Language #path of file
 pip install -r requirements.txt
-cd D:\Indian-Sign-Language-Recognition\Indian-Sign-Language-Recognition-master\Code\Predict signs #path of file 
+cd D:\Sign-Language\Code\Predict signs #path of file 
 pip install protobuf==3.20.3
 set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
